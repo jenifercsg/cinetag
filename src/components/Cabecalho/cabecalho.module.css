@@ -1,8 +1,25 @@
-.cabecalho { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: sans-serif;
-    padding: 1.1em 20em;
-    background-color: black;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 1.1em 20em;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .cabecalho {
+    padding: 1.1em 5em;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .cabecalho {
+    flex-direction: column;
+    padding: 1em 1.5em;
+    text-align: center;
+    gap: 0.5em;
+  }
 }
