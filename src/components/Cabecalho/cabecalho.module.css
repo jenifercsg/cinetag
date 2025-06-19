@@ -8,10 +8,9 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 1024px) {
-  .cabecalho {
-    padding: 1.1em 5em;
-  }
+nav {
+  display: flex;
+  gap: 1.5em;
 }
 
 
